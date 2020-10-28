@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import pers.wk.spring.transactional.common.PetException;
 import pers.wk.spring.transactional.service.PetService;
 
-public class AppStart {
+public class TransactionalDemo {
 
     public static void main(String[] args) throws PetException {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
